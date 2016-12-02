@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="52027" started-at="2016-12-02T09:13:58Z" finished-at="2016-12-02T09:14:50Z">
+    <groups>
+      <group name="product">
+        <method signature="TestApplication.Product()[pri:2, instance:frameWork.TestApplication@6d7b4f4c]" name="Product" class="frameWork.TestApplication"/>
+      </group> <!-- product -->
+      <group name="payment">
+        <method signature="TestApplication.Shipping()[pri:3, instance:frameWork.TestApplication@6d7b4f4c]" name="Shipping" class="frameWork.TestApplication"/>
+      </group> <!-- payment -->
+      <group name="Login">
+        <method signature="TestApplication.LoginTOApp()[pri:1, instance:frameWork.TestApplication@6d7b4f4c]" name="LoginTOApp" class="frameWork.TestApplication"/>
+      </group> <!-- Login -->
+    </groups>
+    <test name="Default test" duration-ms="52027" started-at="2016-12-02T09:13:58Z" finished-at="2016-12-02T09:14:50Z">
+      <class name="frameWork.TestApplication">
+        <test-method status="PASS" signature="BrowserEngin()[pri:0, instance:frameWork.TestApplication@6d7b4f4c]" name="BrowserEngin" is-config="true" duration-ms="17022" started-at="2016-12-02T14:43:58Z" finished-at="2016-12-02T14:44:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserEngin -->
+        <test-method status="PASS" signature="Logconfig()[pri:0, instance:frameWork.TestApplication@6d7b4f4c]" name="Logconfig" is-config="true" duration-ms="57" started-at="2016-12-02T14:44:15Z" finished-at="2016-12-02T14:44:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logconfig -->
+        <test-method status="PASS" signature="LoginTOApp()[pri:1, instance:frameWork.TestApplication@6d7b4f4c]" name="LoginTOApp" duration-ms="9545" started-at="2016-12-02T14:44:15Z" finished-at="2016-12-02T14:44:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTOApp -->
+        <test-method status="PASS" signature="TearDown(org.testng.ITestResult)[pri:0, instance:frameWork.TestApplication@6d7b4f4c]" name="TearDown" is-config="true" duration-ms="488" started-at="2016-12-02T14:44:25Z" finished-at="2016-12-02T14:44:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginTOApp status=SUCCESS method=TestApplication.LoginTOApp()[pri:1, instance:frameWork.TestApplication@6d7b4f4c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="Logconfig()[pri:0, instance:frameWork.TestApplication@6d7b4f4c]" name="Logconfig" is-config="true" duration-ms="78" started-at="2016-12-02T14:44:25Z" finished-at="2016-12-02T14:44:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logconfig -->
+        <test-method status="PASS" signature="Product()[pri:2, instance:frameWork.TestApplication@6d7b4f4c]" name="Product" duration-ms="16364" started-at="2016-12-02T14:44:25Z" finished-at="2016-12-02T14:44:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Product -->
+        <test-method status="PASS" signature="TearDown(org.testng.ITestResult)[pri:0, instance:frameWork.TestApplication@6d7b4f4c]" name="TearDown" is-config="true" duration-ms="140" started-at="2016-12-02T14:44:42Z" finished-at="2016-12-02T14:44:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Product status=SUCCESS method=TestApplication.Product()[pri:2, instance:frameWork.TestApplication@6d7b4f4c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="Logconfig()[pri:0, instance:frameWork.TestApplication@6d7b4f4c]" name="Logconfig" is-config="true" duration-ms="94" started-at="2016-12-02T14:44:42Z" finished-at="2016-12-02T14:44:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logconfig -->
+        <test-method status="PASS" signature="Shipping()[pri:3, instance:frameWork.TestApplication@6d7b4f4c]" name="Shipping" duration-ms="7308" started-at="2016-12-02T14:44:42Z" finished-at="2016-12-02T14:44:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Shipping -->
+        <test-method status="PASS" signature="TearDown(org.testng.ITestResult)[pri:0, instance:frameWork.TestApplication@6d7b4f4c]" name="TearDown" is-config="true" duration-ms="82" started-at="2016-12-02T14:44:49Z" finished-at="2016-12-02T14:44:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Shipping status=SUCCESS method=TestApplication.Shipping()[pri:3, instance:frameWork.TestApplication@6d7b4f4c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:frameWork.TestApplication@6d7b4f4c]" name="TearDown" is-config="true" duration-ms="841" started-at="2016-12-02T14:44:49Z" finished-at="2016-12-02T14:44:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- frameWork.TestApplication -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

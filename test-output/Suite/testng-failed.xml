@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="frameWork.TestApplication">
+        <methods>
+          <include name="Logconfig"/>
+          <include name="TearDown"/>
+          <include name="TearDown"/>
+          <include name="Product"/>
+          <include name="Shipping"/>
+          <include name="BrowserEngin"/>
+        </methods>
+      </class> <!-- frameWork.TestApplication -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
